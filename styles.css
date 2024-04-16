@@ -1,0 +1,45 @@
+#imagenPortada {
+    max-width: 80%;  /* Ajusta el tamaño de la imagen */
+    height: auto;    /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+#bienvenida {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000; /* Fondo oscuro para la portada */
+    color: white;
+    font-size: 24px;
+}
+
+#escenario {
+    display: none; /* Asegura que el juego no se muestre inicialmente */
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+
+.my-button:active {
+  background-color: #3e8e41;
+}
+
+
+.color{
+    color: red;
+}
+
+
